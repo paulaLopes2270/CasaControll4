@@ -1,15 +1,23 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "info-card",
+      "slider-layout#home"
     ]
   },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
+  "info-card": {
+    "props": {
+      "isFullModeStyle": true,
+      // "textPosition": "center",
+      "imageUrl": "https://i.ibb.co/xqbxvVZ/banner-t-shirt.jpg"
+
+      // "headline": "Vintage Pink",
+      // "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
+      // "callToActionMode": "button",
+      // "callToActionText": "Explore",
+      // "callToActionUrl": "/sale/d",
+      // "textAlignment": "center"
     }
   }
+
 }
