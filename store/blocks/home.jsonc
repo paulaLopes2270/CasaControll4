@@ -1,12 +1,39 @@
 {
   "store.home": { 
     "blocks": [
-      "info-card",
-      "slider-layout#home",
       "responsive-layout.desktop#desktop",
-      "responsive-layout.mobile#mobile"
+      "responsive-layout.mobile#mobile",
+      "list-context.product-list",
+      "info-card#canecas",
+      "slider-layout#home",
+      "info-card"
     ]
   },
+
+  "list-context.product-list": {
+       "blocks": ["product-summary.shelf"],
+       "children": ["slider-layout"]
+     },
+     "product-summary.shelf": {
+       "children": [
+         "modal-trigger#quickview",
+         "product-summary-name",
+         "product-selling-price"
+       ]
+    },
+    "modal-trigger#quickview": {
+      "children": ["product-summary-image", "modal-layout#quickview"]
+    },
+    "modal-layout#quickview": {
+      "children": [
+        "product-summary-name"
+        // "product-images"
+        // "product-summary-sku-selector",
+        // "product-summary-quantity",
+        // "add-to-cart-button"
+      ]
+    },
+     
   "responsive-layout.desktop#desktop": {
     "children": ["rich-text#desktop", "image#desktop"]
   },
@@ -55,9 +82,22 @@
     "props": {
       "isFullModeStyle": false,
       "textPosition": "right",
-      "imageUrl": "https://i.ibb.co/jGPKtj3/baner.png",
+      "imageUrl": "https://i.ibb.co/hLGzHhm/pack-of-black-t-shirt-tote-bag-and-mug-mockup.jpg",
       "headline": "T-SHIRT",
       "subhead": "AS CAMISETAS DAS CASAS MAIS AMADAS DA INTERNET, VOCÊ ENCONTRA AQUI!",
+      "callToActionMode": "button",
+      "callToActionText": "Confira",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#canecas": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://i.ibb.co/ZB8PnDT/canecas.jpg",
+      "headline": "CANECAS",
+      "subhead": "AS CANECAS DAS CASAS MAIS AMADAS DA INTERNET, VOCÊ ENCONTRA AQUI!",
       "callToActionMode": "button",
       "callToActionText": "Confira",
       "callToActionUrl": "/sale/d",
