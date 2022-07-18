@@ -1,35 +1,35 @@
 {
     "slider-layout#home": {
       "children": [
-        "image#brand1",
-        "image#brand2",
-        "image#brand3",
+        // "image#brand1",
+        // "image#brand2",
+        // "image#brand3",
         "image#brand4",
         "image#brand5",
         "image#brand6"
       ],
       "props": {
         "autoplay": {
-          "timeout": 7000,
+          "timeout": 10000,
           "stopOnHover": true
         }
       }
     },
-    "image#brand1": {
-      "props": {
-        "src": "https://i.ibb.co/Sw3rxhb/canecas.jpg"
-      }
-    },
-    "image#brand2": {
-      "props": {
-        "src": "https://i.ibb.co/qkGB4JP/pack-of-black-t-shirt-tote-bag-and-mug-mockup.jpg"
-      }
-    },
-    "image#brand3": {
-      "props": {
-        "src": "https://i.ibb.co/Sw3rxhb/canecas.jpg"
-      }
-    },
+    // "image#brand1": {
+    //   "props": {
+    //     "src": "https://i.ibb.co/Sw3rxhb/canecas.jpg"
+    //   }
+    // },
+    // "image#brand2": {
+    //   "props": {
+    //     "src": "https://i.ibb.co/qkGB4JP/pack-of-black-t-shirt-tote-bag-and-mug-mockup.jpg"
+    //   }
+    // },
+    // "image#brand3": {
+    //   "props": {
+    //     "src": "https://i.ibb.co/Sw3rxhb/canecas.jpg"
+    //   }
+    // },
     "image#brand4": {
       "props": {
         "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square4.png"
