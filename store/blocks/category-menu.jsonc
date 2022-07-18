@@ -1,0 +1,87 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "items": [
+        {
+          "id": "menu-item-category-product",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": 153,
+            "type": "internal",
+            "href": "/product/",
+            "noFollow": true,
+            "tagTitle": "Produtos",
+            "text": "Produtos"
+          }
+        },
+        {
+          "id": "menu-item-category-about",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": "151",
+            "type": "internal",
+            "href": "/about/",
+            "noFollow": true,
+            "tagTitle": "Sobre",
+            "text": "Sobre"
+          }
+        }
+      ]
+    }
+  },
+  "vtex.menu@2.x:menu#category-menu-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-product",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": 153,
+            "type": "internal",
+            "href": "/product/",
+            "noFollow": true,
+            "tagTitle": "Produtos",
+            "text": "Produtos"
+          }
+        },
+        {
+          "id": "menu-item-category-about",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": "151",
+            "type": "internal",
+            "href": "/about/",
+            "noFollow": true,
+            "tagTitle": "Sobre",
+            "text": "Sobre"
+          }
+        }
+      ]
+    }
+  },
+
+  "menu-item#login": {
+    "props": {
+      "id": "menu-item-custom-login",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": true,
+        "tagTitle": "My account",
+        "text": "My account"
+      }
+    }
+  }
+}
