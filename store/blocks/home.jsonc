@@ -1,83 +1,164 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
       "responsive-layout.desktop#desktop",
       "responsive-layout.mobile#mobile",
+      "responsive-layout.desktop#desktopInfo",
+      "responsive-layout.mobile#mobileInfo",
+      // "stack-layout#cta",
       "list-context.product-list",
       "info-card#canecas",
+      "info-card",
       "slider-layout#home",
-      "info-card"
+      "back-to-top-button"
     ]
   },
-
-  "list-context.product-list": {
-       "blocks": ["product-summary.shelf"],
-       "children": ["slider-layout"]
-     },
-     "product-summary.shelf": {
-       "children": [
-         "modal-trigger#quickview",
-         "product-summary-name",
-         "product-selling-price"
-       ]
-    },
-    "modal-trigger#quickview": {
-      "children": ["product-summary-image", "modal-layout#quickview"]
-    },
-    "modal-layout#quickview": {
-      "children": [
-        "product-summary-name"
-        // "product-images"
-        // "product-summary-sku-selector",
-        // "product-summary-quantity",
-        // "add-to-cart-button"
-      ]
-    },
-     
-  "responsive-layout.desktop#desktop": {
-    "children": ["rich-text#desktop", "image#desktop"]
+  // "stack-layout#cta": {
+  //   "children": [
+  //     "image#cta",
+  //     "link#cta"
+  //   ]
+  // },
+  // "image#cta": {
+  //   "props": {
+  //     "blockClass": "cover",
+  //     "width": "100%",
+  //     // "height": 600,
+  //     "src": "https://i.ibb.co/ZGKS2H8/bannernovo.jpg"
+  //   }
+  // },
+  // "link#cta": {
+  //   "props": {
+  //     "displayMode": "button",
+  //     "buttonProps": {
+  //       "variant": "primary",
+  //       "size": "large"
+  //     },
+  //     "href": "/camisetas",
+  //     "label": "Confira esses descontos incríveis"
+  //   }
+  // },
+  "back-to-top-button": {
+    "props": {
+      "displayThreshold": 800
+    }
   },
-
+  "list-context.product-list": {
+    "props": {
+      "category": "1/20"
+    },
+    "blocks": [
+      "product-summary.shelf#novo"
+    ],
+    "children": [
+      "slider-layout"
+    ]
+  },
+  "product-summary.shelf#novo": {
+    "children": [
+      "modal-trigger#quickview",
+      "product-summary-name"
+      // "product-selling-price"
+      // "product-summary-sku-selector",
+      // "product-summary-quantity"
+      // "add-to-cart-button"
+    ]
+  },
+  "modal-trigger#quickview": {
+    "children": [
+      "product-summary-image",
+      "modal-layout#quickview"
+    ]
+  },
+  "modal-layout#quickview": {
+    "children": [
+      "product-summary-name",
+      "product-images",
+      "product-summary-sku-selector",
+      "product-summary-quantity",
+      "add-to-cart-button"
+    ]
+  },
+  "responsive-layout.desktop#desktop": {
+    "children": [
+      // "rich-text#desktop",
+      "image#desktop"
+    ]
+  },
   "responsive-layout.mobile#mobile": {
-    "children": ["rich-text#mobile", "image#mobile"]
+    "children": [
+      // "rich-text#mobile",
+      "image#mobile"
+    ]
   },
   "image#desktop": {
     "props": {
-      "src": "https://i.ibb.co/098rqRB/BANNER-T-SHIRT-1.jpg",
+      "src": "https://i.ibb.co/s5MqmWV/banner-tshirt-desktop.png",
       "maxWidth": "100%",
       // "maxHeight": 1500,
       "link": {
-        "url": "/small-appliances/coffee-makers"
-      },
-      "alt": "Coffee Makers Collection"
+        "url": "/camisetas"
+      }
+      // "alt": "Coffee Makers Collection"
     }
   },
-
   "image#mobile": {
     "props": {
-      "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Mobile.jpg?q=1",
+      "src": "https://i.ibb.co/4VwFGbf/banner-tshirt-mobile-1.png",
       "maxWidth": "100%",
       "link": {
-        "url": "/small-appliances/coffee-makers"
-      },
-      "alt": "Coffee Makers Collection"
+        "url": "/camisetas"
+      }
+      // "alt": "Coffee Makers Collection"
     }
   },
-  "rich-text#desktop": {
+  "responsive-layout.desktop#desktopInfo": {
+    "children": [
+      // "rich-text#desktop",
+      "image#desktopInfo"
+    ]
+  },
+  "responsive-layout.mobile#mobileInfo": {
+    "children": [
+      // "rich-text#mobile",
+      "image#mobileInfo"
+    ]
+  },
+  "image#desktopInfo": {
     "props": {
-      "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
-      "textPosition": "CENTER",
-      "textAlignment": "CENTER"
+      "src": "https://i.ibb.co/89yR3xS/banner-informacoes-desktop.png",
+      "maxWidth": "100%"
+      // "maxHeight": 1500,
+      // "link": {
+      //   "url": "/camisetas"
+      // }
+      // "alt": "Coffee Makers Collection"
     }
   },
-
-  "rich-text#mobile": {
+  "image#mobileInfo": {
     "props": {
-      "text": "### Your Coffee, Your Way \n #### New Coffee Makers Collection",
-      "textPosition": "CENTER",
-      "textAlignment": "CENTER"
+      "src": "https://i.ibb.co/NVXWYqq/banner-informacoes-mobile.png",
+      "maxWidth": "100%"
+      // "link": {
+      //   "url": "/camisetas"
+      // }
+      // "alt": "Coffee Makers Collection"
     }
   },
+  // "rich-text#desktop": {
+  //   "props": {
+  //     "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
+  //     "textPosition": "CENTER",
+  //     "textAlignment": "CENTER"
+  //   }
+  // },
+  // "rich-text#mobile": {
+  //   "props": {
+  //     "text": "### Your Coffee, Your Way \n #### New Coffee Makers Collection",
+  //     "textPosition": "CENTER",
+  //     "textAlignment": "CENTER"
+  //   }
+  // },
   "info-card": {
     "props": {
       "isFullModeStyle": false,
@@ -104,5 +185,4 @@
       "textAlignment": "left"
     }
   }
-
 }
