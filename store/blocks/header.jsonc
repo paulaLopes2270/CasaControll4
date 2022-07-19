@@ -36,6 +36,7 @@
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
+    
     }
   },
   "flex-layout.col#logo-desktop": {
@@ -48,8 +49,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://i.ibb.co/S5tK19P/logo.jpg",
-      "width": "80"
+      "url": "https://i.ibb.co/rQG2bT1/logonova.png",
+      "width": "105"
     }
   },
   "header-row#desktop": {
