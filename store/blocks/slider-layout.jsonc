@@ -1,12 +1,14 @@
 {
     "slider-layout#home": {
       "children": [
-        // "image#brand1",
-        // "image#brand2",
-        // "image#brand3",
-        "image#brand4",
-        "image#brand5",
-        "image#brand6"
+        "image#marca1",
+        "image#marca2",
+        "image#marca3",
+        "image#marca4",
+        "image#marca5",
+        "image#marca6",
+        "image#marca7",
+        "image#marca8"
       ],
       "props": {
         "autoplay": {
@@ -15,36 +17,47 @@
         }
       }
     },
-    // "image#brand1": {
-    //   "props": {
-    //     "src": "https://i.ibb.co/Sw3rxhb/canecas.jpg"
-    //   }
-    // },
-    // "image#brand2": {
-    //   "props": {
-    //     "src": "https://i.ibb.co/qkGB4JP/pack-of-black-t-shirt-tote-bag-and-mug-mockup.jpg"
-    //   }
-    // },
-    // "image#brand3": {
-    //   "props": {
-    //     "src": "https://i.ibb.co/Sw3rxhb/canecas.jpg"
-    //   }
-    // },
-    "image#brand4": {
+    "image#marca1": {
       "props": {
-        "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square4.png"
+        "src": "https://i.ibb.co/nwZW1xJ/VTEX.png"
       }
     },
-    "image#brand5": {
+    "image#marca2": {
       "props": {
-        "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square5.png"
+        "src": "https://i.ibb.co/0ycfKS4/GAMA.png"
       }
     },
-    "image#brand6": {
+    "image#marca3": {
       "props": {
-        "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square6.png"
+        "src": "https://i.ibb.co/CVVzbym/AWS.png"
       }
     },
+    "image#marca4": {
+      "props":{
+        "src": "https://i.ibb.co/p3c4S74/ACCT.png"
+      }
+    },
+    "image#marca5": {
+      "props":{
+        "src": "https://i.ibb.co/10Z5FH5/LE-BISCUIT.png"
+      }
+    },
+    "image#marca6": {
+      "props":{
+        "src": "https://i.ibb.co/4JcY9Cs/GATHER.png"
+      }
+    },
+    "image#marca7": {
+      "props":{
+        "src": "https://i.ibb.co/jb2XbQ4/GITHUB.png"
+      }
+    },
+    "image#marca8": {
+      "props":{
+        "src": "https://i.ibb.co/LJS5bTY/SALVADOR-TECH.png"
+      }
+    },
+    
     "slider-layout#marcas": {
       "children": [
         "image#marcas1",
