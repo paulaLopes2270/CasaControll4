@@ -5,7 +5,6 @@
       "responsive-layout.mobile#mobile",
       "responsive-layout.desktop#desktopInfo",
       "responsive-layout.mobile#mobileInfo",
-      // "stack-layout#cta",
       "list-context.product-list",
       "info-card#canecas",
       "info-card",
@@ -13,31 +12,6 @@
       "back-to-top-button"
     ]
   },
-  // "stack-layout#cta": {
-  //   "children": [
-  //     "image#cta",
-  //     "link#cta"
-  //   ]
-  // },
-  // "image#cta": {
-  //   "props": {
-  //     "blockClass": "cover",
-  //     "width": "100%",
-  //     // "height": 600,
-  //     "src": "https://i.ibb.co/ZGKS2H8/bannernovo.jpg"
-  //   }
-  // },
-  // "link#cta": {
-  //   "props": {
-  //     "displayMode": "button",
-  //     "buttonProps": {
-  //       "variant": "primary",
-  //       "size": "large"
-  //     },
-  //     "href": "/camisetas",
-  //     "label": "Confira esses descontos incríveis"
-  //   }
-  // },
   "back-to-top-button": {
     "props": {
       "displayThreshold": 800
@@ -79,28 +53,63 @@
       "add-to-cart-button"
     ]
   },
+
+  //----------banner carrossel ------------------ 
   "responsive-layout.desktop#desktop": {
     "children": [
-      // "rich-text#desktop",
-      "image#desktop"
+      "slider-layout#bannerDesktop"
     ]
   },
   "responsive-layout.mobile#mobile": {
     "children": [
-      // "rich-text#mobile",
-      "image#mobile"
+      "slider-layout#bannerMobile"
     ]
+  },
+  "slider-layout#bannerDesktop": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["image#desktop", "image#desktop2"]
   },
   "image#desktop": {
     "props": {
       "src": "https://i.ibb.co/s5MqmWV/banner-tshirt-desktop.png",
       "maxWidth": "100%",
-      // "maxHeight": 1500,
       "link": {
         "url": "/camisetas"
       }
-      // "alt": "Coffee Makers Collection"
+      // "alt": ""
     }
+  },
+  "image#desktop2": {
+    "props": {
+      "src": "https://i.ibb.co/yfVmYTc/prancheta-canecas.png",
+      "maxWidth": "100%",
+      "link": {
+        "url": "/camisetas"
+      }
+      // "alt": ""
+    }
+  },
+  "slider-layout#bannerMobile": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "mobileOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["image#mobile", "image#mobile2"]
   },
   "image#mobile": {
     "props": {
@@ -109,18 +118,28 @@
       "link": {
         "url": "/camisetas"
       }
-      // "alt": "Coffee Makers Collection"
+      // "alt": ""
     }
   },
+  "image#mobile2": {
+    "props": {
+      "src": "https://i.ibb.co/SyKsp7z/prancheta-canecas-Mobile.png",
+      "maxWidth": "100%",
+      "link": {
+        "url": "/camisetas"
+      }
+      // "alt": ""
+    }
+  },
+
+  //------------- banner informações -----------------------------------
   "responsive-layout.desktop#desktopInfo": {
     "children": [
-      // "rich-text#desktop",
       "image#desktopInfo"
     ]
   },
   "responsive-layout.mobile#mobileInfo": {
     "children": [
-      // "rich-text#mobile",
       "image#mobileInfo"
     ]
   },
@@ -128,37 +147,14 @@
     "props": {
       "src": "https://i.ibb.co/89yR3xS/banner-informacoes-desktop.png",
       "maxWidth": "100%"
-      // "maxHeight": 1500,
-      // "link": {
-      //   "url": "/camisetas"
-      // }
-      // "alt": "Coffee Makers Collection"
     }
   },
   "image#mobileInfo": {
     "props": {
       "src": "https://i.ibb.co/NVXWYqq/banner-informacoes-mobile.png",
       "maxWidth": "100%"
-      // "link": {
-      //   "url": "/camisetas"
-      // }
-      // "alt": "Coffee Makers Collection"
     }
   },
-  // "rich-text#desktop": {
-  //   "props": {
-  //     "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
-  //     "textPosition": "CENTER",
-  //     "textAlignment": "CENTER"
-  //   }
-  // },
-  // "rich-text#mobile": {
-  //   "props": {
-  //     "text": "### Your Coffee, Your Way \n #### New Coffee Makers Collection",
-  //     "textPosition": "CENTER",
-  //     "textAlignment": "CENTER"
-  //   }
-  // },
   "info-card": {
     "props": {
       "isFullModeStyle": false,

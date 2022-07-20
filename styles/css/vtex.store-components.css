@@ -57,3 +57,11 @@
 .imageElement--cover {
     object-fit: cover;
 }
+
+.logoImage {
+    padding-top: 10px;
+}
+
+.leanMode{
+    background-color: blue;
+}
