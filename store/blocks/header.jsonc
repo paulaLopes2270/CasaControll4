@@ -36,7 +36,6 @@
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
-    
     }
   },
   "flex-layout.col#logo-desktop": {

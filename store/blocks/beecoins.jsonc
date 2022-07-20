@@ -1,28 +1,16 @@
 {
   "store.custom#beecoins": {
     "blocks": [
-      "flex-layout.row#campanha"
+      "responsive-layout.desktop#campanha",
+      "responsive-layout.mobile#campanha"
     ]
   },
 
-  "flex-layout.row#campanha":{
+  "responsive-layout.desktop#campanha":{
     "children": [
-      "flex-layout.col#image"
+      "image#campanha2",
+      "list-context.product-list"
     ]
-  },
-
-  "flex-layout.col#image": {
-    "children": [
-      "image#campanha1", 
-      "rich-text#campanha",
-      "rich-text#campanha2"
-    ]
-  },
-  "image#campanha1": {
-    "props": {
-      "src": "https://i.ibb.co/BVhJ9Gx/IMG-2567.jpg",
-      "maxWidth": "100%"
-    }
   },
   "rich-text#campanha": {
     "props": {
@@ -32,12 +20,29 @@
       "textColor": "pink"
     }
   },
-  "rich-text#campanha2": {
+  "image#campanha2": {
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "A cada R$1,00 gasto no site você ganha 1 ponto de recompensa para trocar em produtos exclusivos da nossa loja.",
-      "font": "t-heading-4"
+      "src": "https://i.ibb.co/wS3Rdk7/Prancheta-9.png",
+      "maxWidth": "100%"
+    }
+  },
+  "responsive-layout.mobile#campanha": {
+    "children": [
+      "image#campanha1mobile",
+      "image#campanha2mobile",
+      "list-context.product-list"
+    ]
+  },
+  "image#campanha1mobile": {
+    "props": {
+      "src": "https://i.ibb.co/BVhJ9Gx/IMG-2567.jpg",
+      "maxWidth": "100%"
+    }
+  },
+  "image#campanha2mobile": {
+    "props": {
+      "src": "https://i.ibb.co/z6LNNvq/Prancheta-10-1.png",
+      "maxWidth": "100%"
     }
   }
 }

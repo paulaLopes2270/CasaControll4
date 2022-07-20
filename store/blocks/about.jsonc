@@ -3,6 +3,7 @@
   "store.custom#about": {
     "blocks": [
       "flex-layout.row#about-us",
+      "slider-layout#marcas",
       "flex-layout.row#contato"
     ]
   },
