@@ -1,0 +1,39 @@
+
+{
+  "store.custom#about": {
+    "blocks": [
+      "flex-layout.row#about-us",
+      "flex-layout.row#contato"
+    ]
+  },
+  "flex-layout.row#about-us": {
+    "children": [
+      "info-card#about"
+    ]
+  },
+  "info-card#about": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://i.ibb.co/cDrSdgF/photo-output.png",
+      "headline": "Controll4",
+      "subhead": " Controll4 BeeShop é um e-commerce criado pelo grupo ControllCasa4. Uma empresa brasileira que surgiu para atender a alta procura de itens personalizados das casas mais amadas da internet.",
+      "textAlignment": "center"
+    }
+  },
+  
+  "flex-layout.row#contato": {
+    "children": [
+      "rich-text#contato"
+    ]
+  },
+  "rich-text#contato": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Contatos:**  (11) 4004-0000 | 0800 4004-0000 | *@controll4bee*",
+      "textColor": "gray",
+      "font": "t-heading-7"
+    }
+  }
+}

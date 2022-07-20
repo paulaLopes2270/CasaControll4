@@ -1,0 +1,43 @@
+{
+  "store.custom#beecoins": {
+    "blocks": [
+      "flex-layout.row#campanha"
+    ]
+  },
+
+  "flex-layout.row#campanha":{
+    "children": [
+      "flex-layout.col#image"
+    ]
+  },
+
+  "flex-layout.col#image": {
+    "children": [
+      "image#campanha1", 
+      "rich-text#campanha",
+      "rich-text#campanha2"
+    ]
+  },
+  "image#campanha1": {
+    "props": {
+      "src": "https://i.ibb.co/BVhJ9Gx/IMG-2567.jpg",
+      "maxWidth": "100%"
+    }
+  },
+  "rich-text#campanha": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "# Aproveite nosso programa de pontos! # ",
+      "textColor": "pink"
+    }
+  },
+  "rich-text#campanha2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "A cada R$1,00 gasto no site você ganha 1 ponto de recompensa para trocar em produtos exclusivos da nossa loja.",
+      "font": "t-heading-4"
+    }
+  }
+}
