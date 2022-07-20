@@ -17,6 +17,20 @@
           }
         },
         {
+          "id": "menu-item-category-beecoins",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": 153,
+            "type": "internal",
+            "href": "/beecoins/",
+            "noFollow": true,
+            "tagTitle": "BeeCoins",
+            "text": "BeeCoins"
+          }
+        },
+        {
           "id": "menu-item-category-about",
           "type": "custom",
           "iconId": null,
@@ -24,7 +38,7 @@
           "itemProps": {
             "categoryId": "151",
             "type": "internal",
-            "href": "/about/",
+            "href": "/_v/segment/routing/vtex.store@2.x/userRoute/:id(/*terms)",
             "noFollow": true,
             "tagTitle": "Sobre",
             "text": "Sobre"
@@ -52,6 +66,20 @@
           }
         },
         {
+          "id": "menu-item-category-beecoins",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": 153,
+            "type": "internal",
+            "href": "/beecoins/",
+            "noFollow": true,
+            "tagTitle": "BeeCoins",
+            "text": "BeeCoins"
+          }
+        },
+        {
           "id": "menu-item-category-about",
           "type": "custom",
           "iconId": null,
@@ -59,7 +87,7 @@
           "itemProps": {
             "categoryId": "151",
             "type": "internal",
-            "href": "/about/",
+            "href": "/_v/segment/routing/vtex.store@2.x/userRoute/:id(/*terms)",
             "noFollow": true,
             "tagTitle": "Sobre",
             "text": "Sobre"

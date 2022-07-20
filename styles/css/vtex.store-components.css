@@ -1,68 +1,67 @@
 .infoCardHeadline {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: calc(5em + 1vw);
+    font-family: 'MyHelvetica';
+    font-size: clamp(20px, 8vw, 90px);
     font-weight: bold;
     color: rgb(255, 196, 0);
-    text-shadow: 0 0 4px rgb(0, 0, 0)
-    /* border: 2px solid black; */
-    /* margin-bottom: 30px; */
-    /* margin-left: 160px; */
-    /* padding: 44px; */
- } 
+    text-shadow: 0 0 4px rgb(0, 0, 0);
+    max-width: 100%;
+
+}
 
 .infoCardCallActionContainer :global(.vtex-button) {
     margin-top: 18%;
     background-color: transparent;
     margin-left: 50%;
-    /* margin-top: auto; */
-    /* margin-bottom: 200px; */
     color: gray;
     border-color: gray;
-    
-} 
+
+}
 
 .infoCardCallActionContainer :global(.vtex-button):hover {
-    border-color: rgb(255, 196, 0); 
-     color:  rgb(255, 196, 0); 
-    /* background-color:rgb(247, 210, 0); */
-}  
-
- .infoCardContainer {
-    /* /* max-width: 90%; */
-    align-items: center; 
-    /* padding: 0; */
-    /* margin: 10px; */
-    /* margin-bottom: 1%; */
-    background-color: rgb(245, 245, 245);
-} 
-
-.infoCardTextContainer{
-/* background-color: aqua; */
-/* width: 20%; */
-
-/* justify-content: center; */
-/* align-items: center; */
-padding-left: 4%;
-align-self: center;
-/* padding-right: 12%; */
+    border-color: rgb(255, 196, 0);
+    color: rgb(255, 196, 0);
 }
 
- .infoCardSubhead {
-    /* margin-left: 260px; */
+.infoCardContainer {
+    align-items: center;
+    background-image: url(https://i.ibb.co/TgNK69K/fundo-texturizado.png);
+    max-width: 100%;
+    max-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.infoCardTextContainer {
+    padding-left: 4%;
+    align-self: center;
+}
+
+.infoCardSubhead {
     color: black;
     max-width: 300px;
-    /* font-weight: bold; */
     margin: 0;
     font-size: calc(0.0.8em + 1vw);
+    font-family: 'MyHelvetica';
     line-height: 28px;
-    /* margin-bottom: 40px; */
-} 
-
-.imageElemet {
-   height: 30px;
 }
 
-.carouselContainer{
+.imageElemet {
+    height: 30px;
+}
+
+.carouselContainer {
     max-width: 90%;
     position: center;
- }
+}
+
+.imageElement--cover {
+    object-fit: cover;
+}
+
+.logoImage {
+    padding-top: 10px;
+}
+
+.leanMode{
+    background-color: blue;
+}
