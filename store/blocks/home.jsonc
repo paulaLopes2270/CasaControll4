@@ -6,6 +6,7 @@
       "responsive-layout.desktop#desktopInfo",
       "responsive-layout.mobile#mobileInfo",
       "list-context.product-list",
+      "__fold__",
       "info-card#canecas",
       "info-card",
       "slider-layout#home",
@@ -31,11 +32,8 @@
   "product-summary.shelf#novo": {
     "children": [
       "modal-trigger#quickview",
-      "product-summary-name"
-      // "product-selling-price"
-      // "product-summary-sku-selector",
-      // "product-summary-quantity"
-      // "add-to-cart-button"
+      "product-summary-name",
+      "product-selling-price"
     ]
   },
   "modal-trigger#quickview": {
@@ -53,7 +51,6 @@
       "add-to-cart-button"
     ]
   },
-
   //----------banner carrossel ------------------ 
   "responsive-layout.desktop#desktop": {
     "children": [
@@ -76,16 +73,18 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     },
-    "children": ["image#desktop", "image#desktop2"]
+    "children": [
+      "image#desktop",
+      "image#desktop2"
+    ]
   },
   "image#desktop": {
     "props": {
       "src": "https://i.ibb.co/s5MqmWV/banner-tshirt-desktop.png",
       "maxWidth": "100%",
       "link": {
-        "url": "/camisetas"
+        "url": "/camisas/casas"
       }
-      // "alt": ""
     }
   },
   "image#desktop2": {
@@ -93,9 +92,8 @@
       "src": "https://i.ibb.co/yfVmYTc/prancheta-canecas.png",
       "maxWidth": "100%",
       "link": {
-        "url": "/camisetas"
+        "url": "/canecas-controll-4"
       }
-      // "alt": ""
     }
   },
   "slider-layout#bannerMobile": {
@@ -109,16 +107,18 @@
       "showNavigationArrows": "mobileOnly",
       "blockClass": "carousel"
     },
-    "children": ["image#mobile", "image#mobile2"]
+    "children": [
+      "image#mobile",
+      "image#mobile2"
+    ]
   },
   "image#mobile": {
     "props": {
       "src": "https://i.ibb.co/4VwFGbf/banner-tshirt-mobile-1.png",
       "maxWidth": "100%",
       "link": {
-        "url": "/camisetas"
+        "url": "/camisas/casas"
       }
-      // "alt": ""
     }
   },
   "image#mobile2": {
@@ -126,12 +126,10 @@
       "src": "https://i.ibb.co/SyKsp7z/prancheta-canecas-Mobile.png",
       "maxWidth": "100%",
       "link": {
-        "url": "/camisetas"
+        "url": "/canecas-controll-4"
       }
-      // "alt": ""
     }
   },
-
   //------------- banner informações -----------------------------------
   "responsive-layout.desktop#desktopInfo": {
     "children": [
@@ -160,11 +158,11 @@
       "isFullModeStyle": false,
       "textPosition": "right",
       "imageUrl": "https://i.ibb.co/hLGzHhm/pack-of-black-t-shirt-tote-bag-and-mug-mockup.jpg",
-      "headline": "T-SHIRT",
-      "subhead": "AS CAMISETAS DAS CASAS MAIS AMADAS DA INTERNET, VOCÊ ENCONTRA AQUI!",
+      "headline": "KITS",
+      "subhead": "MONTE O SEU KIT PERSONALIZADO DAS CASAS MAIS AMADAS DA INTERNET!",
       "callToActionMode": "button",
       "callToActionText": "Confira",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/camisas/casas",
       "textAlignment": "left"
     }
   },
@@ -177,7 +175,7 @@
       "subhead": "AS CANECAS DAS CASAS MAIS AMADAS DA INTERNET, VOCÊ ENCONTRA AQUI!",
       "callToActionMode": "button",
       "callToActionText": "Confira",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/canecas-controll-4",
       "textAlignment": "left"
     }
   }

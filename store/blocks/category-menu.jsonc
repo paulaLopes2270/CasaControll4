@@ -10,7 +10,7 @@
           "itemProps": {
             "categoryId": 153,
             "type": "internal",
-            "href": "/product/",
+            "href": "/camisas/casas",
             "noFollow": true,
             "tagTitle": "Produtos",
             "text": "Produtos"
@@ -96,7 +96,6 @@
       ]
     }
   },
-
   "menu-item#login": {
     "props": {
       "id": "menu-item-custom-login",
