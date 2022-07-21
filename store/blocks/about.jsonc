@@ -1,4 +1,3 @@
-
 {
   "store.custom#about": {
     "blocks": [
@@ -27,7 +26,6 @@
       "text": "### Quem somos: ### \n Somos a **Controll4 BeeShop!** Uma loja especializada em produtos Hiring Coders. Surgimos para atender uma forte demanda do mercado, que são produtos com a temática de um dos projetos mais incríveis da internet, o **Hiring Coders**. \n Aqui você encontra camisetas unissex da sua casa favorita. Vista-se com muito estilo e aproveite para presentear seus amigos de projeto. \n\n ### Nossa História: ###\n Um time de desenvolvedores, unidos para atender um grande desafio do Hiring Coders #3, reúnem forças e experiências para vencer o programa usando muita criatividade e esforço. \n Dentre tantas ideias, uma foi selecionada, criar uma loja para trabalhar produtos com a temática do próprio programa. Assim surgiu a Controll4 BeeShop, uma loja especializada em produtos Hiring Coders. \n\n ### Nossa Missão: ###\n Nossa missão é entregar produtos criativos, que solucionem dores e tragam inovação para o mercado de desenvolvimento do Digital Commerce. \n Queremos mais do que um simples “Hello World!“, queremos mostrar para o mundo tudo que aprendemos e embarcar nessa jornada incrível que é o Digital Commerce. \n"
     }
   },
-
   "responsive-layout.mobile#about": {
     "children": [
       "image#about3",
@@ -40,7 +38,6 @@
       "maxWidth": "100%"
     }
   },
-  
   "flex-layout.row#contato": {
     "children": [
       "rich-text#contato"

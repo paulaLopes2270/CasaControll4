@@ -1,119 +1,118 @@
 {
-    "slider-layout#home": {
-      "children": [
-        "image#marca1",
-        "image#marca2",
-        "image#marca3",
-        "image#marca4",
-        "image#marca5",
-        "image#marca6",
-        "image#marca7",
-        "image#marca8"
-      ],
-      "props": {
-        "autoplay": {
-          "timeout": 10000,
-          "stopOnHover": true
-        }
-      }
-    },
-    "image#marca1": {
-      "props": {
-        "src": "https://i.ibb.co/nwZW1xJ/VTEX.png"
-      }
-    },
-    "image#marca2": {
-      "props": {
-        "src": "https://i.ibb.co/0ycfKS4/GAMA.png"
-      }
-    },
-    "image#marca3": {
-      "props": {
-        "src": "https://i.ibb.co/CVVzbym/AWS.png"
-      }
-    },
-    "image#marca4": {
-      "props":{
-        "src": "https://i.ibb.co/p3c4S74/ACCT.png"
-      }
-    },
-    "image#marca5": {
-      "props":{
-        "src": "https://i.ibb.co/10Z5FH5/LE-BISCUIT.png"
-      }
-    },
-    "image#marca6": {
-      "props":{
-        "src": "https://i.ibb.co/4JcY9Cs/GATHER.png"
-      }
-    },
-    "image#marca7": {
-      "props":{
-        "src": "https://i.ibb.co/jb2XbQ4/GITHUB.png"
-      }
-    },
-    "image#marca8": {
-      "props":{
-        "src": "https://i.ibb.co/LJS5bTY/SALVADOR-TECH.png"
-      }
-    },
-    
-    "slider-layout#marcas": {
-      "children": [
-        "image#marcas1",
-        "image#marcas2",
-        "image#marcas3",
-        "image#marcas4",
-        "image#marcas5",
-        "image#marcas6",
-        "image#marcas7",
-        "image#marcas8"
-      ],
-      "props": {
-        "autoplay": {
-          "timeout": 10000,
-          "stopOnHover": true
-        }
-      }
-    },
-    "image#marcas1": {
-      "props": {
-        "src": "https://i.ibb.co/nwZW1xJ/VTEX.png"
-      }
-    },
-    "image#marcas2": {
-      "props": {
-        "src": "https://i.ibb.co/0ycfKS4/GAMA.png"
-      }
-    },
-    "image#marcas3": {
-      "props": {
-        "src": "https://i.ibb.co/CVVzbym/AWS.png"
-      }
-    },
-    "image#marcas4": {
-      "props":{
-        "src": "https://i.ibb.co/p3c4S74/ACCT.png"
-      }
-    },
-    "image#marcas5": {
-      "props":{
-        "src": "https://i.ibb.co/10Z5FH5/LE-BISCUIT.png"
-      }
-    },
-    "image#marcas6": {
-      "props":{
-        "src": "https://i.ibb.co/4JcY9Cs/GATHER.png"
-      }
-    },
-    "image#marcas7": {
-      "props":{
-        "src": "https://i.ibb.co/jb2XbQ4/GITHUB.png"
-      }
-    },
-    "image#marcas8": {
-      "props":{
-        "src": "https://i.ibb.co/LJS5bTY/SALVADOR-TECH.png"
+  "slider-layout#home": {
+    "children": [
+      "image#marca1",
+      "image#marca2",
+      "image#marca3",
+      "image#marca4",
+      "image#marca5",
+      "image#marca6",
+      "image#marca7",
+      "image#marca8"
+    ],
+    "props": {
+      "autoplay": {
+        "timeout": 10000,
+        "stopOnHover": true
       }
     }
+  },
+  "image#marca1": {
+    "props": {
+      "src": "https://i.ibb.co/nwZW1xJ/VTEX.png"
+    }
+  },
+  "image#marca2": {
+    "props": {
+      "src": "https://i.ibb.co/0ycfKS4/GAMA.png"
+    }
+  },
+  "image#marca3": {
+    "props": {
+      "src": "https://i.ibb.co/CVVzbym/AWS.png"
+    }
+  },
+  "image#marca4": {
+    "props": {
+      "src": "https://i.ibb.co/p3c4S74/ACCT.png"
+    }
+  },
+  "image#marca5": {
+    "props": {
+      "src": "https://i.ibb.co/10Z5FH5/LE-BISCUIT.png"
+    }
+  },
+  "image#marca6": {
+    "props": {
+      "src": "https://i.ibb.co/4JcY9Cs/GATHER.png"
+    }
+  },
+  "image#marca7": {
+    "props": {
+      "src": "https://i.ibb.co/jb2XbQ4/GITHUB.png"
+    }
+  },
+  "image#marca8": {
+    "props": {
+      "src": "https://i.ibb.co/LJS5bTY/SALVADOR-TECH.png"
+    }
+  },
+  "slider-layout#marcas": {
+    "children": [
+      "image#marcas1",
+      "image#marcas2",
+      "image#marcas3",
+      "image#marcas4",
+      "image#marcas5",
+      "image#marcas6",
+      "image#marcas7",
+      "image#marcas8"
+    ],
+    "props": {
+      "autoplay": {
+        "timeout": 10000,
+        "stopOnHover": true
+      }
+    }
+  },
+  "image#marcas1": {
+    "props": {
+      "src": "https://i.ibb.co/nwZW1xJ/VTEX.png"
+    }
+  },
+  "image#marcas2": {
+    "props": {
+      "src": "https://i.ibb.co/0ycfKS4/GAMA.png"
+    }
+  },
+  "image#marcas3": {
+    "props": {
+      "src": "https://i.ibb.co/CVVzbym/AWS.png"
+    }
+  },
+  "image#marcas4": {
+    "props": {
+      "src": "https://i.ibb.co/p3c4S74/ACCT.png"
+    }
+  },
+  "image#marcas5": {
+    "props": {
+      "src": "https://i.ibb.co/10Z5FH5/LE-BISCUIT.png"
+    }
+  },
+  "image#marcas6": {
+    "props": {
+      "src": "https://i.ibb.co/4JcY9Cs/GATHER.png"
+    }
+  },
+  "image#marcas7": {
+    "props": {
+      "src": "https://i.ibb.co/jb2XbQ4/GITHUB.png"
+    }
+  },
+  "image#marcas8": {
+    "props": {
+      "src": "https://i.ibb.co/LJS5bTY/SALVADOR-TECH.png"
+    }
   }
+}

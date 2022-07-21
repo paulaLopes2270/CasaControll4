@@ -5,8 +5,7 @@
       "responsive-layout.mobile#campanha"
     ]
   },
-
-  "responsive-layout.desktop#campanha":{
+  "responsive-layout.desktop#campanha": {
     "children": [
       "image#campanha2",
       "image#campanha-info",
