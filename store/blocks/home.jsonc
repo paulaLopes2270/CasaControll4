@@ -6,6 +6,7 @@
       "responsive-layout.desktop#desktopInfo",
       "responsive-layout.mobile#mobileInfo",
       "list-context.product-list",
+      "__fold__",
       "info-card#canecas",
       "info-card",
       "slider-layout#home",
