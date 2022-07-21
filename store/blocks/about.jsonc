@@ -2,24 +2,42 @@
 {
   "store.custom#about": {
     "blocks": [
-      "flex-layout.row#about-us",
+      "responsive-layout.desktop#about",
+      "responsive-layout.mobile#about",
       "slider-layout#marcas",
       "flex-layout.row#contato"
     ]
   },
-  "flex-layout.row#about-us": {
+  "responsive-layout.desktop#about": {
     "children": [
-      "info-card#about"
+      "image#about2",
+      "rich-text#about2"
     ]
   },
-  "info-card#about": {
+  "image#about2": {
     "props": {
-      "isFullModeStyle": false,
-      "textPosition": "right",
-      "imageUrl": "https://i.ibb.co/cDrSdgF/photo-output.png",
-      "headline": "Controll4",
-      "subhead": " Controll4 BeeShop é um e-commerce criado pelo grupo ControllCasa4. Uma empresa brasileira que surgiu para atender a alta procura de itens personalizados das casas mais amadas da internet.",
-      "textAlignment": "center"
+      "src": "https://i.ibb.co/s3JbJvZ/Prancheta-9-2.png",
+      "maxWidth": "100%"
+    }
+  },
+  "rich-text#about2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "### Quem somos: ### \n Somos a **Controll4 BeeShop!** Uma loja especializada em produtos Hiring Coders. Surgimos para atender uma forte demanda do mercado, que são produtos com a temática de um dos projetos mais incríveis da internet, o **Hiring Coders**. \n Aqui você encontra camisetas unissex da sua casa favorita. Vista-se com muito estilo e aproveite para presentear seus amigos de projeto. \n\n ### Nossa História: ###\n Um time de desenvolvedores, unidos para atender um grande desafio do Hiring Coders #3, reúnem forças e experiências para vencer o programa usando muita criatividade e esforço. \n Dentre tantas ideias, uma foi selecionada, criar uma loja para trabalhar produtos com a temática do próprio programa. Assim surgiu a Controll4 BeeShop, uma loja especializada em produtos Hiring Coders. \n\n ### Nossa Missão: ###\n Nossa missão é entregar produtos criativos, que solucionem dores e tragam inovação para o mercado de desenvolvimento do Digital Commerce. \n Queremos mais do que um simples “Hello World!“, queremos mostrar para o mundo tudo que aprendemos e embarcar nessa jornada incrível que é o Digital Commerce. \n"
+    }
+  },
+
+  "responsive-layout.mobile#about": {
+    "children": [
+      "image#about3",
+      "rich-text#about2"
+    ]
+  },
+  "image#about3": {
+    "props": {
+      "src": "https://i.ibb.co/w0vdh2f/Prancheta-10-2.png",
+      "maxWidth": "100%"
     }
   },
   
